@@ -39,6 +39,22 @@ npm start
 
 The server will start on the port specified in your `.env` file (default: 3000).
 
+### Loading Sample Data (Optional)
+
+To load sample player data into the database:
+
+```bash
+node examples/sample_data.js
+```
+
+### Running Tests
+
+To run the test suite:
+
+```bash
+npm test
+```
+
 ## API Endpoints
 
 ### GET /api/teams/:teamId/players
@@ -104,3 +120,7 @@ The Player model includes the following fields:
 - `nationality` (String): Nationality
 - `createdAt` (Date): Auto-generated timestamp
 - `updatedAt` (Date): Auto-generated timestamp
+
+## Examples
+
+For more detailed API usage examples, see [examples/api_examples.md](examples/api_examples.md).
