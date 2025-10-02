@@ -1,0 +1,19 @@
+{
+  "name": "staines-super-kings-website",
+  "version": "1.0.0",
+  "description": "Website for Staines Super Kings",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": ["cricket", "staines", "react"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "prop-types": "^15.8.1"
+  }
+}
